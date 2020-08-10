@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "login-example-47cb1": {
+      "hosting": {
+        "app": [
+          "login-example-47cb1"
+        ]
+      }
+    }
+  }
+}
