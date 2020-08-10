@@ -1,8 +1,8 @@
-# LOGIN WITH FIREBASE
+# LOGIN WITH FIREBASE ✔
 
 ## Simple login authentication, with firebase, google and custom email and password.
 
-# Screenshots
+# Screenshots 
 | Login      | Register      | Forgot password       |
 |------------|-------------|-------------|
 | <img src="./src/assets/login.png" width="250"> | <img src="./src/assets/registeruser.png" width="250"> | <img src="./src/assets/forgotpassword.png" width="250"> |
@@ -11,7 +11,11 @@
 |-------------|-------------|
 | <img src="./src/assets/verifyemail.png" width="250"> | <img src="./src/assets/adminpanel.png" width="250"> |
 
-# Ionic CLI commands and TODO
+# Coming soon ⚒
+1. Apple login
+2. Facebook login
+
+# Ionic CLI commands and TODO ✅
 ## Create a project with [firebase console](http://firebase.com/) then...
 1. ionic start ionic-login-firebase blank --type=angular
 2. npm i firebase
