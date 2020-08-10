@@ -17,9 +17,8 @@ export class AdminPage {
     private router: Router
   ) { }
 
-  onLogout() {
-    this.authService.logout();
-    this.router.navigate(['login']);
+  async onLogout() {
+    await this.authService.logout().finally(() => this.router.navigate(['login']));
   }
 
 }
