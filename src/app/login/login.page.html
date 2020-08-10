@@ -1,0 +1,56 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form>
+    <ion-item lines="full">
+      <ion-label position="floating">Email</ion-label>
+      <ion-input type="text" #email required></ion-input>
+    </ion-item>
+    <ion-item lines="full">
+      <ion-label position="floating">Password</ion-label>
+      <ion-input type="password" #password required></ion-input>
+    </ion-item>
+    <ion-row>
+      <ion-col size="12">
+        <ion-button type="submit" (click)="onLogin(email, password)" expand="full">Login</ion-button>
+      </ion-col>
+      <ion-col size="6">
+        <p class="ion-text-start">
+          <a routerLink="/register">Create an account</a>
+        </p>
+      </ion-col>
+      <ion-col size="6">
+        <p class="ion-text-end">
+          <a routerLink="/forgot-password">Forgot password?</a>
+        </p>
+      </ion-col>
+    </ion-row>
+    <div class="ion-text-center divider line one-line"><ion-text>or</ion-text></div>
+    <ion-row size="12">
+      <ion-col size="12">
+        <ion-button type="submit" disabled color="dark" expand="full">
+          <ion-icon name="logo-apple" style="margin-right: .25rem;"></ion-icon>
+          <ion-text >Continue With Apple</ion-text>
+        </ion-button>
+      </ion-col>
+      <ion-col size="12">
+        <ion-button type="submit" (click)="onLoginGoogle()" color="danger" expand="full">
+          <ion-icon name="logo-google" style="margin-right: .25rem;" ></ion-icon> 
+          <ion-text>Continue with Google</ion-text>
+        </ion-button>
+      </ion-col>
+      <ion-col size="12">
+        <ion-button type="submit" disabled color="primary" expand="full">
+          <ion-icon name="logo-facebook" style="margin-right: .25rem;"></ion-icon>
+          <ion-text>Continue with Facebook</ion-text> 
+        </ion-button>
+      </ion-col>
+    </ion-row>
+    
+    
+  </form>
+</ion-content>
