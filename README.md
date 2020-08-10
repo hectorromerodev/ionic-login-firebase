@@ -1,6 +1,9 @@
 # LOGIN WITH FIREBASE
 
-## Simple login authentication, with firebase and custom email and password.
+## Simple login authentication, with firebase, google and custom email and password.
+
+# Screenshots
+
 
 # Ionic CLI commands
 1. ionic start ionic-login-firebase blank --type=angular
